@@ -1,0 +1,528 @@
+body{
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23292929' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+    
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0,0,0,0.7);
+    height: 100px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+header h1{
+    font-family: 'Lobster';
+    padding: 10px;
+    font-size: 40px;
+    margin-left: 10%
+}
+
+.header-col{
+    padding: 15px;
+    text-align: justify;
+    float: right;
+    margin-left: 15%;
+    font-family: 'Domine';
+}
+
+.container{
+    margin: auto;
+}
+
+.container{
+    color: white;
+}
+
+.part1{
+     width: 100%;
+    height: 400px;;
+    margin-bottom: 15px;
+}
+
+.part1 img{
+    position: absolute;   
+    height: 400px;
+    width: 1100px;
+}
+
+
+.part1-btn{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    background-color: #e68a00;
+    border-radius: 20px;
+    right: 5%;
+    top: 75%;
+    float: right;
+}
+
+.part1-btn a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Domine';
+    padding: 5px;
+}
+
+.part1-btn p{
+    margin-left: 15%;
+}
+
+.part1 .btn{
+    margin-top: 300px;
+    position: relative;
+    margin-left: 65%;
+}
+
+/*-----------------Part 2-----------------------------*/
+
+.part2{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+}    
+
+.part2 h1{
+    text-align: center;
+} 
+
+.part2 .part2-col1{
+    padding: 15px;
+    font-family: 'Domine';
+    line-height: 40px;
+    text-align: justify;
+    color: white;
+}
+
+.part2 .part2-col2 iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.part2-img{
+    width: 100px;
+    height: 100px;
+    left: 25%;
+    position: absolute;
+}
+
+/*-------------------------------------------------*/
+
+
+/*---------------Part3---------------------------------*/
+
+.part3{
+    width: 100%;
+    height: 800px; 
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Domine';
+    margin-bottom: 15px;
+}
+
+.part3-col{
+    margin: 10px;
+    text-align: justify;
+    color: white;
+}
+
+
+.part3-col1-img img{
+    width: 100%;;
+    height: 300px;
+}
+
+.part3-col h2{
+    text-align: center;
+}
+
+.part3-col p{
+    padding: 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.part3-btn{
+    background-color: #e68a00;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 20%;
+    float: le
+}
+
+.part3-btn a{
+    text-decoration: none;
+    color: black; 
+}
+
+.part3-btn p{
+    margin-left: 20%;
+    font-weight: bold;   
+}
+/*---------------Part31---------------------------------------*/
+
+.part31{
+    color: white;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.part31-col{
+    
+    height: 100%;
+    width: 410px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part31-col-title{
+    font-family: 'Domine';
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+.part31-col-text{
+    width: 100%;
+    height: 320px;
+    padding: 5px;
+    margin: auto;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.part31-col-btn{
+    margin: auto;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+}
+
+.btn{
+    margin: auto;
+    background-color: #e68a00;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+@media screen and (max-width:600px){
+    .part3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 600px;
+    }
+    
+    .part3-col{
+        padding: 5%;   
+        
+    }
+    .otro{
+        margin: 10%;
+        text-align: center;
+        text-align: justify;
+
+    }
+    
+    .otro-col1{
+        display: none;
+    }
+    
+    .part6{
+        margin-top: 200px
+    }
+    
+    footer{
+    margin-top: 500px;
+}
+    
+    .otro{
+        margin-top: 1500px;
+    }
+     .part4-img{
+    display: none;
+    }
+
+}
+
+@media screen and (max-width:900px){
+
+    .part2{
+    display: flex;
+    flex-direction: column;
+}
+    
+    .part2-img{
+      position: relative;
+        margin-left: 15%;
+    }
+    
+    .part2-col2{
+    margin-top: 15px;
+    height: 500px;
+    width: 100%;
+    } 
+}
+
+
+/*------------------------------*/
+    
+
+}
+    
+/*----------------------Part4------------------------------*/
+
+.part4{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.50fr;
+    font-family: 'Domine';
+    margin-bottom: 15px;
+}
+
+.part4-img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.part4-col2{
+    background-color: aqua
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    margin-left: 25%;
+    width: 70%;
+}
+
+.part4-col-img{
+    width: 100%;
+    height: 100%;
+     object-fit:cover;
+}
+
+.part4-col2 ul{
+    line-height: 50px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.part4-col2 h1{
+    margin-left: 25%;
+}
+
+.part4-col-img{
+    position: relative;
+}
+/*----------------------Otro------------------------------*/
+.otro{
+    font-family: 'Domine';
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.otro-col1{
+    height: 100%;
+    width: 30%;
+}
+.otro-col2{
+    height: 100%;
+    width: 70%;
+}
+
+.otro-img-col1{
+    position: relative;
+}
+
+.otro h1{
+    position: relative;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.otro ul{
+    padding: 10px;
+    color: white;
+    position: relative;
+    line-height: 50px; 
+}
+
+.otro li{
+    font-size: 20px;
+}
+
+/*----------------------Part5------------------------------*/
+
+.part5{
+    width:100%;
+    height: 250px;; 
+    align-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.part5 h1{
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.part5-title{
+    widows: 100%;
+    background-color:black;;
+    text-align: center;
+}
+
+
+.part5-btn{
+    background-color: #e68a00;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+.part5-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.part5-btn p{
+    font-size: 30px;
+    font-weight: bold;   
+    width: 100%;
+    height: 50px;
+    margin-top: 10px
+}
+
+/*----------------------Part6------------------------------*/
+
+.part6{
+     width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.part6-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.part6-col1, .part6-col2{
+    width: 600px;
+    height: 100%;
+    color: white;
+}
+
+.part6-col1 h1{
+    text-align: center;
+}
+
+.part6-col1 p{
+    font-size: 20px;
+    line-height: 40px;
+    padding: 10px;
+    text-align: justify;
+}            
+
+.part6-col2{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-col1, .footer-col2, .footer-col3{
+    color: white;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.footer-col2 img{
+    height: 300px;
+    width: 300px;
+}
+
+.footer-col1 h2{
+    padding: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-col1 a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.footer-col1 p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footer-col3 p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+
+
+
+
